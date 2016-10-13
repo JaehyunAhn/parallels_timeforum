@@ -12,6 +12,7 @@
   <!-- load local data -->
   <link rel="stylesheet" type="text/css" href="index.css">
   <link rel="stylesheet" type="text/css" href="slideshow.css">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script type="text/javascript" src="./js/index.js"></script>
@@ -19,7 +20,6 @@
 
   <script type="text/javascript" src="./js/imageSlider.js"></script>
   <script type="text/javascript" src="./js/jssor.slider.min.js"></script>
-  <script async src="./js/autotrack.js"></script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -172,7 +172,7 @@
             <br><br>
           </p>
           <center>
-          <a href="http://google.com" target="_blank">
+          <a href="#" class="review1_trigger">
             <div id="r1_button" class="button">
               더보기
             </div>
@@ -193,12 +193,30 @@
             가독성 향상을 위해 크로노그래프 핸즈는 아워 및 미닛 핸즈와 다른 컬러로 뚜렷하게 구분되어 있습니다.
           </p>
           <center>
-            <a href="http://google.com" target="_blank">
+            <a href="#" class="review2_trigger">
               <div id="r2_button" class="button">
                 더보기
               </div>
             </a>
           </center>
+        </div>
+      </div>
+    </div>
+    <!-- SCENE modal views: Review 1 -->
+    <div class="modal-review-1">
+      <div class="modal">
+        <div class="head"> <a class="btn-close review1_trigger" href="#"> <i class="fa fa-times" aria-hidden="true"></i> </a> </div>
+        <div class="content">
+          <h2>첫번째</h2>
+        </div>
+      </div>
+    </div>
+    <!-- SCENE modal views: Review 2 -->
+    <div class="modal-review-2">
+      <div class="modal">
+        <div class="head"> <a class="btn-close review2_trigger" href="#"> <i class="fa fa-times" aria-hidden="true"></i> </a> </div>
+        <div class="content">
+          <h2>두번째</h2>
         </div>
       </div>
     </div>

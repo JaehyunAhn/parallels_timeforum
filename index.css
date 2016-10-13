@@ -442,3 +442,81 @@ a:link {
 .nanummyeonjo {
   color: white;
 }
+
+/* for blur effect */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+.blur-it {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.head {
+  width: 90%;
+  height: 32px;
+  padding: 12px 30px;
+  overflow: hidden;
+  background: #e2525c;
+}
+
+.modal {
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin: 50% 0 0 -300px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  background: #fff;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  z-index: 100;
+}
+
+.modal-review-1 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(41, 171, 164, 0.2);
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.modal-review-1.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-review-1.open .modal {
+  margin-top: -200px;
+  opacity: 1;
+}
+
+.modal-review-2 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(41, 171, 164, 0.2);
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  z-index: 100;
+}
+
+.modal-review-2.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-review-2.open .modal {
+  margin-top: -200px;
+  opacity: 1;
+}
