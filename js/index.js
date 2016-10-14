@@ -74,11 +74,4 @@ $(document).ready(function(){
       $("#img_02").elevateZoom({ lensSize: 350, zoomType: "lens", containLensZoom: true });
       return false;
     });
-
-    // x button cliced?
-    $('.btn-close').on('click', function() {
-      $("div.zoomContainer").css("z-index", 0);
-      console.log("closed");
-      $("div.zoomContainer").remove();
-    });
 });
