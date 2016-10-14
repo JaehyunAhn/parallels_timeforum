@@ -62,12 +62,23 @@ $(document).ready(function(){
     $('.review1_trigger').on('click', function() {
       $('.modal-review-1').toggleClass('open');
       $('#s2, #s3, #slideshow_canvas').toggleClass('blur-it');
+      $("div").remove(".zoomContainer");
+      $("#img_01").elevateZoom({ lensSize: 350, zoomType: "lens", containLensZoom: true });
       return false;
     });
     // review2
     $('.review2_trigger').on('click', function() {
       $('.modal-review-2').toggleClass('open');
       $('#s2, #s3, #slideshow_canvas').toggleClass('blur-it');
+      $("div").remove(".zoomContainer");
+      $("#img_02").elevateZoom({ lensSize: 350, zoomType: "lens", containLensZoom: true });
       return false;
+    });
+
+    // x button cliced?
+    $('.btn-close').on('click', function() {
+      $("div.zoomContainer").css("z-index", 0);
+      console.log("closed");
+      $("div.zoomContainer").remove();
     });
 });
