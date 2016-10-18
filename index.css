@@ -528,7 +528,8 @@ a:link {
   height: 5%;
   padding: 15px 2% 15px 2%;
   overflow: hidden;
-  background: rgb(154, 36, 5);
+  background: #811e04;
+  background: linear-gradient(60deg, #0d0d0d, #272727);
 
   color: white;
   font-family: 'Nanum Gothic';
@@ -546,8 +547,8 @@ a:link {
 .modal_button {
   padding: 8px;
   background: rgba(0,0,0,0.0);
-  color: rgb(154, 36, 5);
-  border: 2px solid rgb(154, 36, 5);
+  color: #595959;
+  border: 2px solid #595959;
   text-align: center;
   margin-top: 5%;
   margin-right: 5%;
@@ -557,9 +558,9 @@ a:link {
 
 .modal_button:hover {
   padding: 8px;
-  background: rgba(0,0,0,0.0);
-  color: #ff3b3b;
-  border: 2px solid #ff3b3b;
+  background: linear-gradient(90deg, #fdfdfd, #f0f0f0);
+  color: #0c0c0c;
+  border: 2px solid #0c0c0c;
   text-align: center;
 }
 
@@ -585,6 +586,9 @@ a:link {
   line-height: 140%;
   overflow-y: auto;
   overflow-x: hidden;
+  /*background: rgba(255, 254, 230, 1);*/
+  /*#FFFFFF;*/
+
 }
 
 .modal-review-1 {
@@ -593,7 +597,7 @@ a:link {
   position: fixed;
   top: 0;
   left: 0;
-  background: rgba(20, 20, 20, 0.2);
+  background: rgba(20, 20, 20, 0.2); /* for bluurred background */
   visibility: hidden;
   opacity: 0;
   -webkit-transition: all 0.25s ease-in-out;
