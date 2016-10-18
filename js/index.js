@@ -58,6 +58,24 @@ $(document).ready(function(){
         }
     });
 
+    // s1 section top trigger
+    $('.s1_section_trigger').on('click', function() {
+      $('.s1-modal-view').toggleClass('open');
+      $('#videowrapper, #s2, #s3, #slideshow_canvas').toggleClass('blur-it');
+      $("div").remove(".zoomContainer");
+      $("#img_s1").elevateZoom({ lensSize: 350, zoomType: "lens", containLensZoom: true });
+      return false;
+    });
+
+    // s2 section top trigger
+    $('.s2_section_trigger').on('click', function() {
+      $('.s2-modal-view').toggleClass('open');
+      $('#videowrapper, #s2, #s3, #slideshow_canvas').toggleClass('blur-it');
+      $("div").remove(".zoomContainer");
+      $("#img_s2").elevateZoom({ lensSize: 350, zoomType: "lens", containLensZoom: true });
+      return false;
+    });
+
     // review1
     $('.review1_trigger').on('click', function() {
       $('.modal-review-1').toggleClass('open');
@@ -72,6 +90,15 @@ $(document).ready(function(){
       $('#s2, #s3, #slideshow_canvas').toggleClass('blur-it');
       $("div").remove(".zoomContainer");
       $("#img_02").elevateZoom({ lensSize: 350, zoomType: "lens", containLensZoom: true });
+      return false;
+    });
+
+    // s5 section trigger
+    $('.s5_trigger').on('click', function() {
+      $('.s5-modal-view').toggleClass('open');
+      $('#s3, #slideshow_canvas, #parallax_maison, #TopDescription').toggleClass('blur-it');
+      $("div").remove(".zoomContainer");
+      $("#img_s5").elevateZoom({ lensSize: 350, zoomType: "lens", containLensZoom: true });
       return false;
     });
 });

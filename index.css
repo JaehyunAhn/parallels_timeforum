@@ -231,6 +231,29 @@ body {
   text-align: center;
 }
 
+.s1-modal-view {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(20, 20, 20, 0.2);
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.s1-modal-view.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.s1-modal-view.open .modal {
+  margin-top: -200px;
+  opacity: 1;
+}
+
 /* SLIDE 2 WRAPPER */
 #s2 {
   position: relative;
@@ -276,6 +299,30 @@ body {
 
   opacity: 0;
 }
+
+.s2-modal-view {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(20, 20, 20, 0.2);
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.s2-modal-view.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.s2-modal-view.open .modal {
+  margin-top: -200px;
+  opacity: 1;
+}
+
 
 /* SLIDE 3 WRAPPER */
 #s3 {
@@ -362,6 +409,31 @@ body {
 
 #r2_button {
   width: 100px;
+}
+
+
+/* SCENE 5 */
+.s5-modal-view {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(20, 20, 20, 0.2);
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.s5-modal-view.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.s5-modal-view.open .modal {
+  margin-top: -200px;
+  opacity: 1;
 }
 
 #maison_description {
@@ -493,7 +565,7 @@ a:link {
 
 .modal {
   width: 80%;
-  padding-bottom: 8%;
+  padding-bottom: 2%;
   display: block;
   margin: 0 0 0 0;
   position: relative;
@@ -510,6 +582,9 @@ a:link {
   font-family: 'Nanum Gothic';
   font-size: 1rem;
   padding: 20px;
+  line-height: 140%;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .modal-review-1 {
