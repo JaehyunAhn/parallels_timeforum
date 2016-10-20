@@ -1,9 +1,8 @@
 $(window).on("load",function() {
   var videoStorage = [
-    './media_movs/m4810',
-    './media_movs/m4810',
-    './media_movs/m4810',
-    './media_movs/m4810'
+    './media_movs/m4810_1',
+    './media_movs/m4810_2',
+    './media_movs/m4810_3'
   ],
   video = document.querySelector('video'),
   activeVideoUrl = videoStorage[Math.round(Math.random()*(videoStorage.length -1))];

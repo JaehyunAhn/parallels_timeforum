@@ -29,38 +29,53 @@ body {
 	}
 	#bg2-1 {
 		position: absolute;
-		top: 162px;
+		top: 1020px;
 		left: 200px;
 		}
 	#bg2-2 {
 		position: absolute;
-		top: 300px;
+		top: 1300px;
 		left: 1150px;
 		}
 	#bg2-3 {
 		position: absolute;
-		top: 543px;
+		top: 1543px;
 		left: -35px;
 		}
 	#bg2-4 {
 		position: absolute;
-		top: 1180px;
+		top: 1680px;
 		left: 250px;
 		}
 	#bg2-5 {
 		position: absolute;
-		top: 900px;
+		top: 1900px;
 		left: 890px;
 		}
   #bg2-6 {
   	position: absolute;
-  	top: 1300px;
+  	top: 2300px;
   	left: 180px;
   	}
   #bg2-7 {
   	position: absolute;
-  	top: 1480px;
+  	top: 2480px;
   	left: 1000px;
+  	}
+  #bg2-8 {
+  	position: absolute;
+  	top: 2680px;
+  	left: 250px;
+  	}
+  #bg2-9 {
+  	position: absolute;
+  	top: 2780px;
+  	left: 440px;
+  	}
+  #bg2-10 {
+  	position: absolute;
+  	top: 3000px;
+  	left: 120px;
   	}
 /* background (clouds) */
 #parallax-bg1 {
@@ -463,6 +478,15 @@ body {
   color: white;
   font-size: 1rem;
   /*font-style: italic;*/
+}
+
+/* SCENE 6 */
+.board_item {
+  display:inline-block;
+  border: 3px solid rgba(0,0,0,0);
+}
+.board_item:hover {
+  border: 3px solid rgba(255,255,255,0.4);
 }
 
 /* fade-in option : CSS3 required */
