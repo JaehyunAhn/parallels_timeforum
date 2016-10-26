@@ -199,7 +199,7 @@ body {
   /* scroll contents */
   overflow-y: auto;
   overflow-x: hidden;
-  height: 290px;
+  height: 350px;
   width: 44%;
 
   z-index: 5000;
@@ -425,7 +425,19 @@ body {
 #r2_button {
   width: 100px;
 }
+/* SCENE 4 */
+#TopDescription {
+  background-image: url("./media_pics/slide4/4810visual4_medium2.jpg");
+  background-size: cover;
+}
 
+#descriptionBackground {
+  width: 100%;
+}
+
+#slideDescription {
+  z-index: 1000;
+}
 
 /* SCENE 5 */
 .s5-modal-view {
@@ -483,10 +495,34 @@ body {
 /* SCENE 6 */
 .board_item {
   display:inline-block;
-  border: 3px solid rgba(0,0,0,0);
 }
-.board_item:hover {
-  border: 3px solid rgba(255,255,255,0.4);
+.board_text:hover{
+  color: rgb(150, 150, 150);
+}
+
+#s6_item_1:hover {
+  content: url('./media_pics/slide6/item1_hover.png');
+}
+#s6_item_2:hover {
+  content: url('./media_pics/slide6/item2_hover.png');
+}
+#s6_item_3:hover {
+  content: url('./media_pics/slide6/item3_hover.png');
+}
+#s6_item_4:hover {
+  content: url('./media_pics/slide6/item4_hover.png');
+}
+#s6_item_5:hover {
+  content: url('./media_pics/slide6/item5_hover.png');
+}
+#s6_item_6:hover {
+  content: url('./media_pics/slide6/item6_hover.png');
+}
+#s6_item_7:hover {
+  content: url('./media_pics/slide6/item7_hover.png');
+}
+#s6_item_8:hover {
+  content: url('./media_pics/slide6/item8_hover.png');
 }
 
 /* fade-in option : CSS3 required */
