@@ -146,4 +146,15 @@ $(document).ready(function(){
       });
       return false;
     });
+
+    // Link on s6 items
+    // document.getElementById("board-1").setAttribute('onclick', 'location.href = "http://www.montblanc.com/ko-kr/collection/watches/montblanc-star-4810-collection/114864-montblanc-4810-exotourbillon-slim.html"');
+    // document.getElementById("board-2").setAttribute('onclick', 'location.href = "http://www.montblanc.com/ko-kr/collection/watches/montblanc-star-4810-collection/114856-montblanc-4810-chronograph-automatic.html"');
+    // document.getElementById("board-3").setAttribute('onclick', 'location.href = "http://www.montblanc.com/ko-kr/collection/watches/montblanc-star-4810-collection/115123-montblanc-4810-chronograph-automatic.html"');
+    // document.getElementById("board-4").setAttribute('onclick', 'location.href = "http://www.montblanc.com/ko-kr/collection/watches/montblanc-star-4810-collection/114859-montblanc-4810-twinfly-chronograph-110-years-edition.html"');
+    // document.getElementById("board-5").setAttribute('onclick', 'location.href = "http://www.montblanc.com/ko-kr/collection/watches/montblanc-star-4810-collection/115071-montblanc-4810-orbis-terrarum.html"');
+    // document.getElementById("board-6").setAttribute('onclick', 'location.href = "http://www.montblanc.com/ko-kr/collection/watches/montblanc-star-4810-collection/114854-montblanc-4810-day-date.html"');
+    // document.getElementById("board-7").setAttribute('onclick', 'location.href = "http://www.montblanc.com/ko-kr/collection/watches/montblanc-star-4810-collection/114852-montblanc-4810-date-automatic.html"');
+    // document.getElementById("board-8").setAttribute('onclick', 'location.href = "http://www.montblanc.com/ko-kr/collection/watches/montblanc-star-4810-collection/114841-montblanc-4810-date-automatic.html"');
+    // document.getElementById("board-9").setAttribute('onclick', 'location.href = "http://www.montblanc.com/ko-kr/collection/watches/montblanc-star-4810-collection/115122-montblanc-4810-date-automatic.html"');
 });
