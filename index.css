@@ -524,6 +524,9 @@ body {
 #s6_item_8:hover {
   content: url('./media_pics/slide6/item8_hover.png');
 }
+#s6_item_9:hover {
+  content: url('./media_pics/slide6/item9_hover.png');
+}
 
 /* fade-in option : CSS3 required */
 @keyframes fadein {
